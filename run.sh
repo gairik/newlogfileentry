@@ -16,7 +16,7 @@ do
 		touch $nf	
 
 	fi
-	if [[ $i == *$.log ]]; then
+	if [[ $i == *$log ]]; then
 		
 		dot=.
 		first=${i%.*}
